@@ -1,0 +1,18 @@
+id,description,name,categories_id,city_id,image_id,category_id
+1,"auto azul",ecoAzul,1,1,1,0
+2,"auto rojo",ecoRojo,1,2,2,0
+3,"auto negro",ecoNegro,1,2,3,0
+4,"auto blanco",ecoBlanco,1,3,4,0
+5,lujoAmg,lujoAmg,2,4,5,0
+6,lujoAudi,lujoAudi,2,1,6,0
+7,lujoNegro,lujoNegro,2,3,7,0
+8,lujoMercedes,lujoMercedes,2,4,8,0
+9,vanAmarilla,vanAmarilla,3,1,9,0
+10,vanNegra,vanNegra,3,4,10,0
+11,vanGris,vanGris,3,3,11,0
+12,vanBlanca,vanBlanca,3,2,12,0
+13,camAzul,camAzul,4,1,13,0
+14,camBlanca,camBlanca,4,3,14,0
+15,camNaranja,camNaranja,4,2,15,0
+16,camRoja,camRoja,4,4,16,0
+19," automóvil deportivo tracción trasera con carrocería descapotable","Mazda MX-5 ",NULL,NULL,NULL,0

@@ -1,0 +1,90 @@
+Link a la consola de AWS
+https://145504712931.signin.aws.amazon.com/console
+
+Usuario:0521PTC2N2-grupo1
+Contraseña:Chei4eh4
+AccessKeyId
+"AKIASDYGBXDRXQL26CCQ"
+SecretAccessKey
+"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"
+
+http://digitalhouse.cluster-cnyqegjgetrv.us-east-2.rds.amazonaws.com
+Base de Datos: 0521PTC2N2db_GRUPO1
+Usuario:0521PTC2N2db_GRUPO1
+Contraseña:Johch6ub
+
+Instancia EC2
+i-011a004e11d9b8889
+Servidor_Web_BackEnd_Grupo1
+
+Servidor_Web_BackEnd_Grupo1@ec2-18-191-188-246.us-east-2.compute.amazonaws.com
+
+S3
+0521ptc2n2-grupo1-frontend
+0521ptc2n2-grupo1-backend-images
+
+pipeline
+https://www.awesomescreenshot.com/video/12181485
+
+
+EC2 - RDS CONNECTION
+mysql -h digitalhouse.cluster-cnyqegjgetrv.us-east-2.rds.amazonaws.com -P 3306 -u 0521PTC2N2db_GRUPO1 -p
+
+
+1.- Paralelicen tareas, Hagan todas las tareas que puedan en paralelo, no esperen la parte de infra integración continua,
+Designen 1 persona que quiera o sepa mas de infra y que lo vaya viendo. El resto trabaje en paralelo 
+2.- En lo de AWS definan todos sus servicios con el numero de la camada y su grupo (igual se los puse en el discord)
+Algo así: "0521PTC2N2-grupoxx-xxxx" donde grupoxx vendría a ser su número y el xxxx sería el servicio. 
+Eso para que no se confundan con los servicios de otras camadas
+3.- Siempre les digo pero lo repito, son 2 cosas, empiecen a hacer siempre lo más fácil y luego lo más complejo. Cuando 
+tengan dudas consulten, no hay preguntas tontas, solo tontos que no preguntan
+
+S3
+frontend
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Stmt1380877761162",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "*"
+            },
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::img-front-g3/*"
+        }
+    ]
+}
+
+backend resources
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "PublicRead",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": [
+                "s3:GetObject",
+                "s3:GetObjectVersion"
+            ],
+            "Resource": "arn:aws:s3:::g8-resources-bucket/*"
+        }
+    ]
+}
+
+frontend
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "PublicReadGetObject",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::g8-frontend-bucket/*"
+        }
+    ]
+}
+
+

@@ -1,0 +1,115 @@
+INSERT INTO `0521PTC2N2db_GRUPO1`.`cities` (`id`, `city`, `country`) VALUES ('1', 'Sevilla', 'España');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`cities` (`id`, `city`, `country`) VALUES ('2', 'Bogotá', 'Colombia');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`cities` (`id`, `city`, `country`) VALUES ('3', 'Mendoza', 'Argentina');
+
+INSERT INTO `0521PTC2N2db_GRUPO1`.`categories` (`id`, `description`, `name`, `url_image`) VALUES ('1', 'Autos de lujo', 'Auto de lujo, disfruta de la exclusividad', 'https://cars.usnews.com/static/images/Auto/izmo/i159614957/2022_mercedes_benz_s_class_angularfront.jpg');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`categories` (`id`, `description`, `name`, `url_image`) VALUES ('2', 'Autos económicos', 'Autos para todos los bolsillos', 'https://www.chevrolet.com.co/content/dam/chevrolet/south-america/colombia/espanol/index/cars/nuevo-onix-sedan-turbo-carro-deportivo/colorizer/03-images/colorizer-onix-plus-my23-azul-metalico-3-4-frente.jpg');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`categories` (`id`, `description`, `name`, `url_image`) VALUES ('3', 'Camionetas y Furgones', 'Autos de carga', 'https://di-uploads-pod3.dealerinspire.com/mercedesbenzofalbuquerque/uploads/2019/02/19MBSprinter.png');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`categories` (`id`, `description`, `name`, `url_image`) VALUES ('4', 'Todo terreno', 'Camionetas de doble tracción', 'https://i.pinimg.com/736x/e6/1d/e6/e61de66761a8baa608f79db90f931606.jpg');
+
+
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('1', 'https://assets.static-gm.com/assets/848f2a8f-517d-479f-969f-98d543470584/6f758be6-7542-4880-8b65-5c4e9f4dfd28/v-1634871064/desktop.webp', '1');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('2', 'https://upload.wikimedia.org/wikipedia/commons/b/b2/2021_Chevrolet_Onix_Sedan_1.0_Premier_Turbo_%28Colombia%29_front_view.png', '1');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('3', 'https://upload.wikimedia.org/wikipedia/commons/6/6a/2021_Chevrolet_Onix_Sedan_1.0_Premier_Turbo_%28Colombia%29_rear_view.png', '1');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('4', 'https://www.elcarrocolombiano.com/wp-content/uploads/2019/04/20190420-CHEVROLET-ONIX-SEDAN-PRUEBA-DE-MANEJO-COLOMBIA-04.jpg', '1');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('5', 'https://www.elcarrocolombiano.com/wp-content/uploads/2019/04/20190420-CHEVROLET-ONIX-SEDAN-PRUEBA-DE-MANEJO-COLOMBIA-04.jpg', '1');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('6', 'https://www.chevrolet.com.mx/content/dam/chevrolet/na/mx/es/index/cars/2022-aveo/colorizer/01-images/rojo-scarlet.jpg?imwidth=960', '2');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('7', 'https://apollo-virginia.akamaized.net/v1/files/4f6lzokhnzl91-CO/image', '2');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('8', 'https://upload.wikimedia.org/wikipedia/commons/b/b2/2021_Chevrolet_Onix_Sedan_1.0_Premier_Turbo_%28Colombia%29_front_view.png', '2');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('9', 'https://upload.wikimedia.org/wikipedia/commons/6/6a/2021_Chevrolet_Onix_Sedan_1.0_Premier_Turbo_%28Colombia%29_rear_view.png', '2');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('10', 'https://www.elcarrocolombiano.com/wp-content/uploads/2019/04/20190420-CHEVROLET-ONIX-SEDAN-PRUEBA-DE-MANEJO-COLOMBIA-04.jpg', '2');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('11', 'https://www.wvl.co.uk/wp-content/uploads/2020/10/Tesla-Updated.jpg', '3');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('12', 'https://apollo-virginia.akamaized.net/v1/files/4f6lzokhnzl91-CO/image', '3');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('13', 'https://upload.wikimedia.org/wikipedia/commons/b/b2/2021_Chevrolet_Onix_Sedan_1.0_Premier_Turbo_%28Colombia%29_front_view.png', '3');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('14', 'https://upload.wikimedia.org/wikipedia/commons/6/6a/2021_Chevrolet_Onix_Sedan_1.0_Premier_Turbo_%28Colombia%29_rear_view.pnghttps://upload.wikimedia.org/wikipedia/commons/6/6a/2021_Chevrolet_Onix_Sedan_1.0_Premier_Turbo_%28Colombia%29_rear_view.png', '3');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('15', 'https://www.elcarrocolombiano.com/wp-content/uploads/2019/04/20190420-CHEVROLET-ONIX-SEDAN-PRUEBA-DE-MANEJO-COLOMBIA-04.jpg', '3');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('16', 'https://es.chevrolet.com/content/dam/chevrolet/na/us/english/index/vehicles/2023/performance/camaro/01-images/colorizer/coupe/2023-camaro-2ss-gba-colorizer.jpg?imwidth=960', '4');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('17', 'https://upload.wikimedia.org/wikipedia/commons/b/b2/2021_Chevrolet_Onix_Sedan_1.0_Premier_Turbo_%28Colombia%29_front_view.png', '4');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('18', 'https://apollo-virginia.akamaized.net/v1/files/4f6lzokhnzl91-CO/image', '4');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('19', 'https://upload.wikimedia.org/wikipedia/commons/6/6a/2021_Chevrolet_Onix_Sedan_1.0_Premier_Turbo_%28Colombia%29_rear_view.png', '4');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('20', 'https://www.elcarrocolombiano.com/wp-content/uploads/2019/04/20190420-CHEVROLET-ONIX-SEDAN-PRUEBA-DE-MANEJO-COLOMBIA-04.jpg', '4');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('21', 'https://0521ptc2n2-grupo1-backend-images.s3.us-east-2.amazonaws.com/carros/camionetas/C1.jpg', '5');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('22', 'https://0521ptc2n2-grupo1-backend-images.s3.us-east-2.amazonaws.com/carros/camionetas/C2.jpg', '5');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('23', 'https://0521ptc2n2-grupo1-backend-images.s3.us-east-2.amazonaws.com/carros/camionetas/C3.jpg', '5');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('24', 'https://0521ptc2n2-grupo1-backend-images.s3.us-east-2.amazonaws.com/carros/camionetas/C4.jpg', '5');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('25', 'https://0521ptc2n2-grupo1-backend-images.s3.us-east-2.amazonaws.com/carros/camionetas/C5.jpg', '5');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('26', 'https://0521ptc2n2-grupo1-backend-images.s3.us-east-2.amazonaws.com/carros/camionetas/CC1.jpg', '6');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('27', 'https://0521ptc2n2-grupo1-backend-images.s3.us-east-2.amazonaws.com/carros/camionetas/CC2.jpg', '6');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('28', 'https://0521ptc2n2-grupo1-backend-images.s3.us-east-2.amazonaws.com/carros/camionetas/CC3.jpg', '6');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('29', 'https://0521ptc2n2-grupo1-backend-images.s3.us-east-2.amazonaws.com/carros/camionetas/CC4.jpg', '6');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('30', 'https://0521ptc2n2-grupo1-backend-images.s3.us-east-2.amazonaws.com/carros/camionetas/CC5.jpg', '6');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('31', 'https://0521ptc2n2-grupo1-backend-images.s3.us-east-2.amazonaws.com/carros/lujo/L1.jpg', '7');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('32', 'https://0521ptc2n2-grupo1-backend-images.s3.us-east-2.amazonaws.com/carros/lujo/L2.jpg', '7');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('33', 'https://0521ptc2n2-grupo1-backend-images.s3.us-east-2.amazonaws.com/carros/lujo/L3.jpg', '7');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('34', 'https://0521ptc2n2-grupo1-backend-images.s3.us-east-2.amazonaws.com/carros/lujo/L4.jpg', '7');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('35', 'https://0521ptc2n2-grupo1-backend-images.s3.us-east-2.amazonaws.com/carros/lujo/L5.jpg', '7');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('36', 'https://0521ptc2n2-grupo1-backend-images.s3.us-east-2.amazonaws.com/carros/vans/F1.jpg', '8');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('37', 'https://0521ptc2n2-grupo1-backend-images.s3.us-east-2.amazonaws.com/carros/vans/F2.jpg', '8');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('38', 'https://0521ptc2n2-grupo1-backend-images.s3.us-east-2.amazonaws.com/carros/vans/F3.jpg', '8');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('39', 'https://0521ptc2n2-grupo1-backend-images.s3.us-east-2.amazonaws.com/carros/vans/F4.jpg', '8');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('40', 'https://0521ptc2n2-grupo1-backend-images.s3.us-east-2.amazonaws.com/carros/vans/F5.jpg', '8');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('41', 'https://0521ptc2n2-grupo1-backend-images.s3.us-east-2.amazonaws.com/carros/economicos/E1.jpg', '9');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('42', 'https://0521ptc2n2-grupo1-backend-images.s3.us-east-2.amazonaws.com/carros/economicos/E2.jpg', '9');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('43', 'https://0521ptc2n2-grupo1-backend-images.s3.us-east-2.amazonaws.com/carros/economicos/E3.jpg', '9');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('44', 'https://0521ptc2n2-grupo1-backend-images.s3.us-east-2.amazonaws.com/carros/economicos/E4.jpg', '9');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('45', 'https://0521ptc2n2-grupo1-backend-images.s3.us-east-2.amazonaws.com/carros/economicos/E5.jpg', '9');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('46', 'https://0521ptc2n2-grupo1-backend-images.s3.us-east-2.amazonaws.com/carros/lujo/LL1.jpg', '10');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('47', 'https://0521ptc2n2-grupo1-backend-images.s3.us-east-2.amazonaws.com/carros/lujo/LL2.jpg', '10');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('48', 'https://0521ptc2n2-grupo1-backend-images.s3.us-east-2.amazonaws.com/carros/lujo/LL3.jpg', '10');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('49', 'https://0521ptc2n2-grupo1-backend-images.s3.us-east-2.amazonaws.com/carros/lujo/LL4.jpg', '10');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('50', 'https://0521ptc2n2-grupo1-backend-images.s3.us-east-2.amazonaws.com/carros/lujo/LL5.jpg', '10');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('51', 'https://0521ptc2n2-grupo1-backend-images.s3.us-east-2.amazonaws.com/carros/vans/FF1.jpg', '11');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('52', 'https://0521ptc2n2-grupo1-backend-images.s3.us-east-2.amazonaws.com/carros/vans/FF2.jpg', '11');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('53', 'https://0521ptc2n2-grupo1-backend-images.s3.us-east-2.amazonaws.com/carros/vans/FF3.jpg', '11');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('54', 'https://0521ptc2n2-grupo1-backend-images.s3.us-east-2.amazonaws.com/carros/vans/FF4.jpg', '11');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`images` (`id`, `url_image`, `product_id`) VALUES ('55', 'https://0521ptc2n2-grupo1-backend-images.s3.us-east-2.amazonaws.com/carros/vans/FF5.jpg', '11');
+
+
+
+INSERT INTO `0521PTC2N2db_GRUPO1`.`features` (`id`, `doors`, `fuel`, `seats`, `traction`, `transmission`, `trunk`) VALUES ('1', '4', 'Gasolina', '5', 'FWD', 'Mecánico', 'Sedan');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`features` (`id`, `doors`, `fuel`, `seats`, `traction`, `transmission`, `trunk`) VALUES ('2', '4', 'Gasolina', '5', 'FWD', 'Manual', 'Sedan');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`features` (`id`, `doors`, `fuel`, `seats`, `traction`, `transmission`, `trunk`) VALUES ('3', '4', 'Eléctrico', '5', 'AWD', 'Automático', 'Sedan');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`features` (`id`, `doors`, `fuel`, `seats`, `traction`, `transmission`, `trunk`) VALUES ('4', '4', 'Gasoline', '5', 'RWD', 'Manual 6 velocidades', 'Sedan');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`features` (`id`, `doors`, `fuel`, `seats`, `traction`, `transmission`, `trunk`) VALUES ('5', '4', 'Gasoline', '5', '4x4', 'Automático', 'Sedan');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`features` (`id`, `doors`, `fuel`, `seats`, `traction`, `transmission`, `trunk`) VALUES ('6', '4', 'Gasoline', '5', '4x4', 'Automático', 'Sedan');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`features` (`id`, `doors`, `fuel`, `seats`, `traction`, `transmission`, `trunk`) VALUES ('7', '5', 'Gasoline', '5', 'AWD', 'Automático', 'Sedan');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`features` (`id`, `doors`, `fuel`, `seats`, `traction`, `transmission`, `trunk`) VALUES ('8', '4', 'Gasoline', '5', '4x4', 'Automático', 'Sedan');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`features` (`id`, `doors`, `fuel`, `seats`, `traction`, `transmission`, `trunk`) VALUES ('9', '4', 'Gasoline', '5', 'FWD', 'Manual', 'Sedan');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`features` (`id`, `doors`, `fuel`, `seats`, `traction`, `transmission`, `trunk`) VALUES ('10', '4', 'Eléctrico', '5', 'RWD', 'Manual 6 velocidades', 'Sedan');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`features` (`id`, `doors`, `fuel`, `seats`, `traction`, `transmission`, `trunk`) VALUES ('11', '4', 'Gasoline', '5', 'RWD', 'Manual', 'Sedan');
+
+
+
+INSERT INTO `0521PTC2N2db_GRUPO1`.`products` (`id`, `description`, `name`, `rating`, `category_id`, `city_id`, `policy_id`) VALUES ('1', 'Disfruta de la versatilidad y economía', 'Chevrolet Onix', '5', '2', '2', '1');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`products` (`id`, `description`, `name`, `rating`, `category_id`, `city_id`, `policy_id`) VALUES ('2', 'Vehículo para quienes quieren ahorrar en su viaje', 'Chevrolet Aveo', '4.2', '2', '2', '1');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`products` (`id`, `description`, `name`, `rating`, `category_id`, `city_id`, `policy_id`) VALUES ('3', 'Conduce el cambio', 'Tesla Model 3', '5', '1', '1', '1');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`products` (`id`, `description`, `name`, `rating`, `category_id`, `city_id`, `policy_id`) VALUES ('4', 'Una aventura en uno de los autos más icónicos', 'Chevrolet Camaro', '4.3', '1', '1', '1');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`products` (`id`, `description`, `name`, `rating`, `category_id`, `city_id`, `policy_id`) VALUES ('5', 'Pickup para la familia y grandes cargas', 'SUV', '3', '4', '3', '1');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`products` (`id`, `description`, `name`, `rating`, `category_id`, `city_id`, `policy_id`) VALUES ('6', 'Pickup para la familia y grandes cargas', 'Red pickup', '1', '4', '3', '1');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`products` (`id`, `description`, `name`, `rating`, `category_id`, `city_id`, `policy_id`) VALUES ('7', 'Carro de alta gama, para momentos exclusivos', 'BMW X5 M', '2', '2', '2', '1');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`products` (`id`, `description`, `name`, `rating`, `category_id`, `city_id`) VALUES ('8', 'Van para realizar largos viajes comodamente', 'Van Amarilla', '3.9', '3', '1');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`products` (`id`, `description`, `name`, `rating`, `category_id`, `city_id`) VALUES ('9', 'Disfruta de la versatilidad y economía', 'Renault Zotie', '4.8', '2', '3');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`products` (`id`, `description`, `name`, `rating`, `category_id`, `city_id`) VALUES ('10', 'Carro de alta gama, para momentos exclusivos', 'BMW Serie 1', '5', '1', '2');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`products` (`id`, `description`, `name`, `rating`, `category_id`, `city_id`) VALUES ('11', 'Van para realizar largos viajes comodamente', 'Volkswagen Transporter Van Modelo 3D', '4', '3', '1');
+
+
+
+INSERT INTO `0521PTC2N2db_GRUPO1`.`products_features` (`id`, `product_id`, `feature_id`) VALUES ('1', '1', '1');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`products_features` (`id`, `product_id`, `feature_id`) VALUES ('2', '2', '2');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`products_features` (`id`, `product_id`, `feature_id`) VALUES ('3', '3', '3');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`products_features` (`id`, `product_id`, `feature_id`) VALUES ('4', '4', '4');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`products_features` (`id`, `product_id`, `feature_id`) VALUES ('5', '5', '5');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`products_features` (`id`, `product_id`, `feature_id`) VALUES ('6', '6', '6');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`products_features` (`id`, `product_id`, `feature_id`) VALUES ('7', '7', '7');
+
+
+INSERT INTO `0521PTC2N2db_GRUPO1`.`roles` (`id`, `name`) VALUES ('1', 'admin');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`roles` (`id`, `name`) VALUES ('2', 'user');
+
+
+INSERT INTO `0521PTC2N2db_GRUPO1`.`policies` (`id`, `description`, `name`) VALUES ('1', 'No esta permitido fumar dentro del vehículo', 'Prohibido fumar');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`policies` (`id`, `description`, `name`) VALUES ('2', 'Las mascotas deben ir correctamente sujetadas', 'Mascota');
+INSERT INTO `0521PTC2N2db_GRUPO1`.`policies` (`id`, `description`, `name`) VALUES ('3', 'Respetar los horarios de retiro y entrega del vehículo', 'Horarios');
+
+
+INSERT INTO `0521PTC2N2db_GRUPO1`.`users` (`id`, `city`, `email`, `last_name`, `name`, `password`, `role_id`) VALUES ('2', 'Córdoba', 'admin@gmail.com', 'admin', 'admin', '$2a$10$8lcOnr30HgZC02JHcQK04.JqwxtiCVp8GNhi1yyYlKbJz837jkRCS', '1');

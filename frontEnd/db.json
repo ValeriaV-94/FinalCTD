@@ -1,0 +1,882 @@
+{
+  "cities": [
+    {
+      "id": 1,
+      "city": "Sevilla",
+      "country": "España"
+    },
+    {
+      "id": 2,
+      "city": "Bogotá",
+      "country": "Colombia"
+    },
+    {
+      "id": 3,
+      "city": "Mendoza",
+      "country": "Argentina"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Autos de lujo",
+      "description": "Auto de lujo, disfruta de la exclusividad",
+      "url_image": "https://cars.usnews.com/static/images/Auto/izmo/i159614957/2022_mercedes_benz_s_class_angularfront.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Autos económicos",
+      "description": "Autos para todos los bolsillos",
+      "url_image": "https://www.chevrolet.com.co/content/dam/chevrolet/south-america/colombia/espanol/index/cars/nuevo-onix-sedan-turbo-carro-deportivo/colorizer/03-images/colorizer-onix-plus-my23-azul-metalico-3-4-frente.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Camionetas y Furgones",
+      "description": "Autos de carga",
+      "url_image": "https://di-uploads-pod3.dealerinspire.com/mercedesbenzofalbuquerque/uploads/2019/02/19MBSprinter.png"
+    },
+    {
+      "id": 4,
+      "name": "Todo terreno",
+      "description": "Camionetas de doble tracción",
+      "url_image": "https://i.pinimg.com/736x/e6/1d/e6/e61de66761a8baa608f79db90f931606.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Chevrolet Onix",
+      "description": "Disfruta de la versatilidad y economía",
+      "location": [
+        {
+          "city": "Bogotá",
+          "country": "Colombia"
+        }
+      ],
+      "features": [
+        {
+          "seats": "5",
+          "doors": "4",
+          "transmission": "Mecánico",
+          "fuel": "Gasolina",
+          "traction": "FWD",
+          "trunk": "Sedan"
+        }
+      ],
+      "images": [
+        {
+          "image": "https://assets.static-gm.com/assets/848f2a8f-517d-479f-969f-98d543470584/6f758be6-7542-4880-8b65-5c4e9f4dfd28/v-1634871064/desktop.webp"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/2021_Chevrolet_Onix_Sedan_1.0_Premier_Turbo_%28Colombia%29_front_view.png"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/2021_Chevrolet_Onix_Sedan_1.0_Premier_Turbo_%28Colombia%29_rear_view.png"
+        },
+        {
+          "image": "https://www.elcarrocolombiano.com/wp-content/uploads/2019/04/20190420-CHEVROLET-ONIX-SEDAN-PRUEBA-DE-MANEJO-COLOMBIA-04.jpg"
+        },
+        {
+          "image": "https://www.elcarrocolombiano.com/wp-content/uploads/2019/04/20190420-CHEVROLET-ONIX-SEDAN-PRUEBA-DE-MANEJO-COLOMBIA-04.jpg"
+        }
+      ],
+      "category": {
+        "id": 1,
+        "name": "Automovil",
+        "description": "Automovil"
+      },
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "name": "Chevrolet Aveo",
+      "description": "Vehículo para quienes quieren ahorrar en su viaje",
+      "location": [
+        {
+          "city": "Bogotá",
+          "country": "Colombia"
+        }
+      ],
+      "features": [
+        {
+          "seats": "5",
+          "doors": "4",
+          "transmission": "Manual",
+          "fuel": "Gasolina",
+          "Tracción": "FWD",
+          "Tipo de maletero": "sedan"
+        }
+      ],
+      "images": [
+        {
+          "image": "https://www.chevrolet.com.mx/content/dam/chevrolet/na/mx/es/index/cars/2022-aveo/colorizer/01-images/rojo-scarlet.jpg?imwidth=960"
+        },
+        {
+          "image": "https://apollo-virginia.akamaized.net/v1/files/4f6lzokhnzl91-CO/image"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/2021_Chevrolet_Onix_Sedan_1.0_Premier_Turbo_%28Colombia%29_front_view.png"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/2021_Chevrolet_Onix_Sedan_1.0_Premier_Turbo_%28Colombia%29_rear_view.png"
+        },
+        {
+          "image": "https://www.elcarrocolombiano.com/wp-content/uploads/2019/04/20190420-CHEVROLET-ONIX-SEDAN-PRUEBA-DE-MANEJO-COLOMBIA-04.jpg"
+        }
+      ],
+      "category": {
+        "id": 1,
+        "name": "Automovil",
+        "description": "Automovil"
+      },
+      "rating": 4.2
+    },
+    {
+      "id": 3,
+      "name": "Tesla Model 3",
+      "description": "Conduce el cambio",
+      "location": [
+        {
+          "city": "Bogotá",
+          "country": "Colombia"
+        }
+      ],
+      "features": [
+        {
+          "seats": "5",
+          "doors": "4",
+          "transmission": "Automático",
+          "fuel": "Eléctrico",
+          "traction": "AWD",
+          "trunk": "sedan"
+        }
+      ],
+      "images": [
+        {
+          "image": "https://www.wvl.co.uk/wp-content/uploads/2020/10/Tesla-Updated.jpg"
+        },
+        {
+          "image": "https://apollo-virginia.akamaized.net/v1/files/4f6lzokhnzl91-CO/image"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/2021_Chevrolet_Onix_Sedan_1.0_Premier_Turbo_%28Colombia%29_front_view.png"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/2021_Chevrolet_Onix_Sedan_1.0_Premier_Turbo_%28Colombia%29_rear_view.png"
+        },
+        {
+          "image": "https://www.elcarrocolombiano.com/wp-content/uploads/2019/04/20190420-CHEVROLET-ONIX-SEDAN-PRUEBA-DE-MANEJO-COLOMBIA-04.jpg"
+        }
+      ],
+      "category": {
+        "id": 1,
+        "name": "Automovil",
+        "description": "Automovil"
+      },
+      "rating": 5
+    },
+    {
+      "id": 4,
+      "name": "Chevrolet Camaro",
+      "description": "Una aventura en uno de los autos más icónicos",
+      "location": [
+        {
+          "city": "Bogotá",
+          "country": "Colombia"
+        }
+      ],
+      "features": [
+        {
+          "seats": "5",
+          "doors": "4",
+          "transmission": "Manual 6 velocidades",
+          "fuel": "gasoline",
+          "traction": "RWD",
+          "trunk": "sedan"
+        }
+      ],
+      "images": [
+        {
+          "image": "https://es.chevrolet.com/content/dam/chevrolet/na/us/english/index/vehicles/2023/performance/camaro/01-images/colorizer/coupe/2023-camaro-2ss-gba-colorizer.jpg?imwidth=960"
+        },
+        {
+          "image": "https://apollo-virginia.akamaized.net/v1/files/4f6lzokhnzl91-CO/image"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/2021_Chevrolet_Onix_Sedan_1.0_Premier_Turbo_%28Colombia%29_front_view.png"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/2021_Chevrolet_Onix_Sedan_1.0_Premier_Turbo_%28Colombia%29_rear_view.png"
+        },
+        {
+          "image": "https://www.elcarrocolombiano.com/wp-content/uploads/2019/04/20190420-CHEVROLET-ONIX-SEDAN-PRUEBA-DE-MANEJO-COLOMBIA-04.jpg"
+        }
+      ],
+      "category": {
+        "id": 1,
+        " ": "Automovil",
+        "description": "Automovil"
+      },
+      "rating": 4.3
+    },
+    {
+      "id": 5,
+      "name": "lujoAmg",
+      "description": "lujoAmg",
+      "location": [
+        {
+          "city": "Bogotá",
+          "country": "Colombia"
+        }
+      ],
+      "features": [
+        {
+          "seats": "5",
+          "doors": "4",
+          "transmission": "automatic",
+          "fuel": "gasoline",
+          "traction": "4x4",
+          "trunk": "sedan"
+        }
+      ],
+      "images": [
+        {
+          "image": "https://assets.static-gm.com/assets/848f2a8f-517d-479f-969f-98d543470584/6f758be6-7542-4880-8b65-5c4e9f4dfd28/v-1634871064/desktop.webp"
+        },
+        {
+          "image": "https://apollo-virginia.akamaized.net/v1/files/4f6lzokhnzl91-CO/image"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/2021_Chevrolet_Onix_Sedan_1.0_Premier_Turbo_%28Colombia%29_front_view.png"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/2021_Chevrolet_Onix_Sedan_1.0_Premier_Turbo_%28Colombia%29_rear_view.png"
+        },
+        {
+          "image": "https://www.elcarrocolombiano.com/wp-content/uploads/2019/04/20190420-CHEVROLET-ONIX-SEDAN-PRUEBA-DE-MANEJO-COLOMBIA-04.jpg"
+        }
+      ],
+      "category": {
+        "id": 1,
+        "name": "Automovil",
+        "description": "Automovil"
+      },
+      "rating": 3
+    },
+    {
+      "id": 6,
+      "name": "lujoAudi",
+      "description": "lujoAudi",
+      "location": [
+        {
+          "city": "Bogotá",
+          "country": "Colombia"
+        }
+      ],
+      "features": [
+        {
+          "seats": "5",
+          "doors": "4",
+          "transmission": "automatic",
+          "fuel": "gasoline",
+          "traction": "4x4",
+          "trunk": "sedan"
+        }
+      ],
+      "images": [
+        {
+          "image": "https://assets.static-gm.com/assets/848f2a8f-517d-479f-969f-98d543470584/6f758be6-7542-4880-8b65-5c4e9f4dfd28/v-1634871064/desktop.webp"
+        },
+        {
+          "image": "https://apollo-virginia.akamaized.net/v1/files/4f6lzokhnzl91-CO/image"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/2021_Chevrolet_Onix_Sedan_1.0_Premier_Turbo_%28Colombia%29_front_view.png"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/2021_Chevrolet_Onix_Sedan_1.0_Premier_Turbo_%28Colombia%29_rear_view.png"
+        },
+        {
+          "image": "https://www.elcarrocolombiano.com/wp-content/uploads/2019/04/20190420-CHEVROLET-ONIX-SEDAN-PRUEBA-DE-MANEJO-COLOMBIA-04.jpg"
+        }
+      ],
+      "category": {
+        "id": 1,
+        "name": "Automovil",
+        "description": "Automovil"
+      },
+      "rating": 1
+    },
+    {
+      "id": 7,
+      "name": "BMW X5 M",
+      "description": "Carro de alta gama, para momentos exclusivos",
+      "location": [
+        {
+          "city": "Bogotá",
+          "country": "Colombia"
+        }
+      ],
+      "features": [
+        {
+          "seats": "5",
+          "doors": "5",
+          "transmission": "Automatic",
+          "fuel": "Gasolina",
+          "traction": "AWD",
+          "trunk": "Sedan"
+        }
+      ],
+      "images": [
+        {
+          "image": "https://cdn.bmwblog.com/wp-content/uploads/2022/08/2023-bmw-x5-m-lci.jpeg"
+        },
+        {
+          "image": "https://www.motorbiscuit.com/wp-content/uploads/2022/07/Front-angle-view-of-white-2023-BMW-X5-highlighting-its-release-date-and-price.jpg"
+        },
+        {
+          "image": "https://www.motorbiscuit.com/wp-content/uploads/2022/07/Rear-angle-view-of-white-2023-BMW-X5-highlighting-its-release-date-and-price.jpg"
+        },
+        {
+          "image": "https://www.motorbiscuit.com/wp-content/uploads/2022/07/Dashboard-and-front-seats-in-2023-BMW-X5-highlighting-its-release-date-and-price.jpg"
+        },
+        {
+          "image": "https://bimmerlife.com/wp-content/uploads/2020/02/P90303993_highRes_the-all-new-bmw-x5-0-scaled.jpg"
+        }
+      ],
+      "category": {
+        "id": 1,
+        "name": "Automovil",
+        "description": "Automovil"
+      },
+      "rating": 2
+    },
+    {
+      "id": 8,
+      "name": "lujoMercedes",
+      "description": "lujoMercedes",
+      "location": [
+        {
+          "city": "Bogotá",
+          "country": "Colombia"
+        }
+      ],
+      "features": [
+        {
+          "seats": "5",
+          "doors": "4",
+          "transmission": "automatic",
+          "fuel": "gasoline",
+          "traction": "4x4",
+          "trunk": "sedan"
+        }
+      ],
+      "images": [
+        {
+          "image": "https://assets.static-gm.com/assets/848f2a8f-517d-479f-969f-98d543470584/6f758be6-7542-4880-8b65-5c4e9f4dfd28/v-1634871064/desktop.webp"
+        },
+        {
+          "image": "https://apollo-virginia.akamaized.net/v1/files/4f6lzokhnzl91-CO/image"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/2021_Chevrolet_Onix_Sedan_1.0_Premier_Turbo_%28Colombia%29_front_view.png"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/2021_Chevrolet_Onix_Sedan_1.0_Premier_Turbo_%28Colombia%29_rear_view.png"
+        },
+        {
+          "image": "https://www.elcarrocolombiano.com/wp-content/uploads/2019/04/20190420-CHEVROLET-ONIX-SEDAN-PRUEBA-DE-MANEJO-COLOMBIA-04.jpg"
+        }
+      ],
+      "category": {
+        "id": 1,
+        "name": "Automovil",
+        "description": "Automovil"
+      },
+      "rating": 4.8
+    },
+    {
+      "id": 9,
+      "name": "vanAmarilla",
+      "description": "vanAmarilla",
+      "location": [
+        {
+          "city": "Bogotá",
+          "country": "Colombia"
+        }
+      ],
+      "features": [
+        {
+          "seats": "5",
+          "doors": "4",
+          "transmission": "automatic",
+          "fuel": "gasoline",
+          "traction": "4x4",
+          "trunk": "sedan"
+        }
+      ],
+      "images": [
+        {
+          "image": "https://assets.static-gm.com/assets/848f2a8f-517d-479f-969f-98d543470584/6f758be6-7542-4880-8b65-5c4e9f4dfd28/v-1634871064/desktop.webp"
+        },
+        {
+          "image": "https://apollo-virginia.akamaized.net/v1/files/4f6lzokhnzl91-CO/image"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/2021_Chevrolet_Onix_Sedan_1.0_Premier_Turbo_%28Colombia%29_front_view.png"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/2021_Chevrolet_Onix_Sedan_1.0_Premier_Turbo_%28Colombia%29_rear_view.png"
+        },
+        {
+          "image": "https://www.elcarrocolombiano.com/wp-content/uploads/2019/04/20190420-CHEVROLET-ONIX-SEDAN-PRUEBA-DE-MANEJO-COLOMBIA-04.jpg"
+        }
+      ],
+      "category": {
+        "id": 1,
+        "name": "Automovil",
+        "description": "Automovil"
+      },
+      "rating": 3.9
+    },
+    {
+      "id": 10,
+      "name": "vanNegra",
+      "description": "vanNegra",
+      "location": [
+        {
+          "city": "Bogotá",
+          "country": "Colombia"
+        }
+      ],
+      "features": [
+        {
+          "seats": "5",
+          "doors": "4",
+          "transmission": "automatic",
+          "fuel": "gasoline",
+          "traction": "4x4",
+          "trunk": "sedan"
+        }
+      ],
+      "images": [
+        {
+          "image": "https://assets.static-gm.com/assets/848f2a8f-517d-479f-969f-98d543470584/6f758be6-7542-4880-8b65-5c4e9f4dfd28/v-1634871064/desktop.webp"
+        },
+        {
+          "image": "https://apollo-virginia.akamaized.net/v1/files/4f6lzokhnzl91-CO/image"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/2021_Chevrolet_Onix_Sedan_1.0_Premier_Turbo_%28Colombia%29_front_view.png"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/2021_Chevrolet_Onix_Sedan_1.0_Premier_Turbo_%28Colombia%29_rear_view.png"
+        },
+        {
+          "image": "https://www.elcarrocolombiano.com/wp-content/uploads/2019/04/20190420-CHEVROLET-ONIX-SEDAN-PRUEBA-DE-MANEJO-COLOMBIA-04.jpg"
+        }
+      ],
+      "category": {
+        "id": 1,
+        "name": "Automovil",
+        "description": "Automovil"
+      },
+      "rating": 3.9
+    },
+    {
+      "id": 11,
+      "name": "vanGris",
+      "description": "vanGris",
+      "location": [
+        {
+          "city": "Bogotá",
+          "country": "Colombia"
+        }
+      ],
+      "features": [
+        {
+          "seats": "5",
+          "doors": "4",
+          "transmission": "automatic",
+          "fuel": "gasoline",
+          "traction": "4x4",
+          "trunk": "sedan"
+        }
+      ],
+      "images": [
+        {
+          "image": "https://assets.static-gm.com/assets/848f2a8f-517d-479f-969f-98d543470584/6f758be6-7542-4880-8b65-5c4e9f4dfd28/v-1634871064/desktop.webp"
+        },
+        {
+          "image": "https://apollo-virginia.akamaized.net/v1/files/4f6lzokhnzl91-CO/image"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/2021_Chevrolet_Onix_Sedan_1.0_Premier_Turbo_%28Colombia%29_front_view.png"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/2021_Chevrolet_Onix_Sedan_1.0_Premier_Turbo_%28Colombia%29_rear_view.png"
+        },
+        {
+          "image": "https://www.elcarrocolombiano.com/wp-content/uploads/2019/04/20190420-CHEVROLET-ONIX-SEDAN-PRUEBA-DE-MANEJO-COLOMBIA-04.jpg"
+        }
+      ],
+      "category": {
+        "id": 1,
+        "name": "Automovil",
+        "description": "Automovil"
+      },
+      "rating": 4.2
+    },
+    {
+      "id": 12,
+      "name": "vanBlanca",
+      "description": "vanBlanca",
+      "location": [
+        {
+          "city": "Bogotá",
+          "country": "Colombia"
+        }
+      ],
+      "features": [
+        {
+          "seats": "5",
+          "doors": "4",
+          "transmission": "automatic",
+          "fuel": "gasoline",
+          "traction": "4x4",
+          "trunk": "sedan"
+        }
+      ],
+      "images": [
+        {
+          "image": "https://assets.static-gm.com/assets/848f2a8f-517d-479f-969f-98d543470584/6f758be6-7542-4880-8b65-5c4e9f4dfd28/v-1634871064/desktop.webp"
+        },
+        {
+          "image": "https://apollo-virginia.akamaized.net/v1/files/4f6lzokhnzl91-CO/image"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/2021_Chevrolet_Onix_Sedan_1.0_Premier_Turbo_%28Colombia%29_front_view.png"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/2021_Chevrolet_Onix_Sedan_1.0_Premier_Turbo_%28Colombia%29_rear_view.png"
+        },
+        {
+          "image": "https://www.elcarrocolombiano.com/wp-content/uploads/2019/04/20190420-CHEVROLET-ONIX-SEDAN-PRUEBA-DE-MANEJO-COLOMBIA-04.jpg"
+        }
+      ],
+      "category": {
+        "id": 1,
+        "name": "Automovil",
+        "description": "Automovil"
+      },
+      "rating": 4.1
+    },
+    {
+      "id": 13,
+      "name": "camRoja",
+      "description": "camRoja",
+      "location": [
+        {
+          "city": "Bogotá",
+          "country": "Colombia"
+        }
+      ],
+      "features": [
+        {
+          "seats": "5",
+          "doors": "4",
+          "transmission": "automatic",
+          "fuel": "gasoline",
+          "traction": "4x4",
+          "trunk": "sedan"
+        }
+      ],
+      "images": [
+        {
+          "image": "https://assets.static-gm.com/assets/848f2a8f-517d-479f-969f-98d543470584/6f758be6-7542-4880-8b65-5c4e9f4dfd28/v-1634871064/desktop.webp"
+        },
+        {
+          "image": "https://apollo-virginia.akamaized.net/v1/files/4f6lzokhnzl91-CO/image"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/2021_Chevrolet_Onix_Sedan_1.0_Premier_Turbo_%28Colombia%29_front_view.png"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/2021_Chevrolet_Onix_Sedan_1.0_Premier_Turbo_%28Colombia%29_rear_view.png"
+        },
+        {
+          "image": "https://www.elcarrocolombiano.com/wp-content/uploads/2019/04/20190420-CHEVROLET-ONIX-SEDAN-PRUEBA-DE-MANEJO-COLOMBIA-04.jpg"
+        }
+      ],
+      "category": {
+        "id": 1,
+        "name": "Automovil",
+        "description": "Automovil"
+      },
+      "rating": 5
+    },
+    {
+      "id": 14,
+      "name": "camBlanca",
+      "description": "camBlanca",
+      "location": [
+        {
+          "city": "Bogotá",
+          "country": "Colombia"
+        }
+      ],
+      "features": [
+        {
+          "seats": "5",
+          "doors": "4",
+          "transmission": "automatic",
+          "fuel": "gasoline",
+          "traction": "4x4",
+          "trunk": "sedan"
+        }
+      ],
+      "images": [
+        {
+          "image": "https://assets.static-gm.com/assets/848f2a8f-517d-479f-969f-98d543470584/6f758be6-7542-4880-8b65-5c4e9f4dfd28/v-1634871064/desktop.webp"
+        },
+        {
+          "image": "https://apollo-virginia.akamaized.net/v1/files/4f6lzokhnzl91-CO/image"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/2021_Chevrolet_Onix_Sedan_1.0_Premier_Turbo_%28Colombia%29_front_view.png"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/2021_Chevrolet_Onix_Sedan_1.0_Premier_Turbo_%28Colombia%29_rear_view.png"
+        },
+        {
+          "image": "https://www.elcarrocolombiano.com/wp-content/uploads/2019/04/20190420-CHEVROLET-ONIX-SEDAN-PRUEBA-DE-MANEJO-COLOMBIA-04.jpg"
+        }
+      ],
+      "category": {
+        "id": 1,
+        "name": "Automovil",
+        "description": "Automovil"
+      },
+      "rating": 3.4
+    },
+    {
+      "id": 14,
+      "name": "camNaranja",
+      "description": "camNaranja",
+      "location": [
+        {
+          "city": "Bogotá",
+          "country": "Colombia"
+        }
+      ],
+      "features": [
+        {
+          "seats": "5",
+          "doors": "4",
+          "transmission": "automatic",
+          "fuel": "gasoline",
+          "traction": "4x4",
+          "trunk": "sedan"
+        }
+      ],
+      "images": [
+        {
+          "image": "https://assets.static-gm.com/assets/848f2a8f-517d-479f-969f-98d543470584/6f758be6-7542-4880-8b65-5c4e9f4dfd28/v-1634871064/desktop.webp"
+        },
+        {
+          "image": "https://apollo-virginia.akamaized.net/v1/files/4f6lzokhnzl91-CO/image"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/2021_Chevrolet_Onix_Sedan_1.0_Premier_Turbo_%28Colombia%29_front_view.png"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/2021_Chevrolet_Onix_Sedan_1.0_Premier_Turbo_%28Colombia%29_rear_view.png"
+        },
+        {
+          "image": "https://www.elcarrocolombiano.com/wp-content/uploads/2019/04/20190420-CHEVROLET-ONIX-SEDAN-PRUEBA-DE-MANEJO-COLOMBIA-04.jpg"
+        }
+      ],
+      "category": {
+        "id": 1,
+        "name": "Automovil",
+        "description": "Automovil"
+      },
+      "rating": 5
+    },
+    {
+      "id": 15,
+      "name": "camRoja",
+      "description": "camRoja",
+      "location": [
+        {
+          "city": "Bogotá",
+          "country": "Colombia"
+        }
+      ],
+      "features": [
+        {
+          "seats": "5",
+          "doors": "4",
+          "transmission": "automatic",
+          "fuel": "gasoline",
+          "traction": "4x4",
+          "trunk": "sedan"
+        }
+      ],
+      "images": [
+        {
+          "image": "https://assets.static-gm.com/assets/848f2a8f-517d-479f-969f-98d543470584/6f758be6-7542-4880-8b65-5c4e9f4dfd28/v-1634871064/desktop.webp"
+        },
+        {
+          "image": "https://apollo-virginia.akamaized.net/v1/files/4f6lzokhnzl91-CO/image"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/2021_Chevrolet_Onix_Sedan_1.0_Premier_Turbo_%28Colombia%29_front_view.png"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/2021_Chevrolet_Onix_Sedan_1.0_Premier_Turbo_%28Colombia%29_rear_view.png"
+        },
+        {
+          "image": "https://www.elcarrocolombiano.com/wp-content/uploads/2019/04/20190420-CHEVROLET-ONIX-SEDAN-PRUEBA-DE-MANEJO-COLOMBIA-04.jpg"
+        }
+      ],
+      "category": {
+        "id": 1,
+        "name": "Automovil",
+        "description": "Automovil"
+      },
+      "rating": 5
+    },
+    {
+      "id": 16,
+      "name": "camRoja",
+      "description": "camRoja",
+      "location": [
+        {
+          "city": "Bogotá",
+          "country": "Colombia"
+        }
+      ],
+      "features": [
+        {
+          "seats": "5",
+          "doors": "4",
+          "transmission": "automatic",
+          "fuel": "gasoline",
+          "traction": "4x4",
+          "trunk": "sedan"
+        }
+      ],
+      "images": [
+        {
+          "url_image": "https://assets.static-gm.com/assets/848f2a8f-517d-479f-969f-98d543470584/6f758be6-7542-4880-8b65-5c4e9f4dfd28/v-1634871064/desktop.webp"
+        },
+        {
+          "url_image": "https://apollo-virginia.akamaized.net/v1/files/4f6lzokhnzl91-CO/image"
+        },
+        {
+          "url_image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/2021_Chevrolet_Onix_Sedan_1.0_Premier_Turbo_%28Colombia%29_front_view.png"
+        },
+        {
+          "url_image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/2021_Chevrolet_Onix_Sedan_1.0_Premier_Turbo_%28Colombia%29_rear_view.png"
+        },
+        {
+          "url_image": "https://www.elcarrocolombiano.com/wp-content/uploads/2019/04/20190420-CHEVROLET-ONIX-SEDAN-PRUEBA-DE-MANEJO-COLOMBIA-04.jpg"
+        }
+      ],
+      "category": {
+        "id": 1,
+        "name": "Automovil",
+        "description": "Automovil"
+      },
+      "rating": 5
+    },
+    {
+      "titulo": "ASDADASS",
+      "descripcion": "DASDASDAS",
+      "url": "SDASD",
+      "ciudad": {
+        "id": ""
+      },
+      "categoria": {
+        "id": "3"
+      },
+      "caracteristicas": [
+        {
+          "id": ""
+        }
+      ],
+      "imagenes": [
+        {
+          "url": ""
+        }
+      ],
+      "id": 17
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "start_date": "2022-11-01 22:00:00",
+      "end_date": "2022-11-02 22:00:00",
+      "check_in": "2022-11-02 22:00:00",
+      "product_id": "1",
+      "user_id": "1"
+    },
+    {
+      "id": 2,
+      "start_date": "2022-11-01 22:00:00",
+      "end_date": "2022-11-02 22:00:00",
+      "product_id": "1",
+      "user_id": "1"
+    },
+    {
+      "id": 3,
+      "start_date": "2022-11-01 22:00:00",
+      "end_date": "2022-11-02 22:00:00",
+      "product_id": "3",
+      "user_id": "1"
+    },
+    {
+      "id": 4,
+      "start_date": "2022-11-01 22:00:00",
+      "end_date": "2022-11-02 22:00:00",
+      "product_id": "3",
+      "user_id": "1"
+    }
+  ],
+  "users": [
+    {
+      "email": "am@gmail.com",
+      "password": "$2a$10$TkZdGaQUSjHEobOYXNVoheNhaLhBna8bfAkahYSWf6noub6RSb5re",
+      "name": "alex",
+      "lastname": "martinez",
+      "role": "user",
+      "id": 1
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$8lcOnr30HgZC02JHcQK04.JqwxtiCVp8GNhi1yyYlKbJz837jkRCS",
+      "name": "admin",
+      "lastname": "admin",
+      "role": "admin",
+      "id": 2
+    },
+    {
+      "email": "mede@gmail.com",
+      "password": "$2a$10$8lcOnr30HgZC02JHcQK04.JqwxtiCVp8GNhi1yyYlKbJz837jkRCS",
+      "name": "medellin",
+      "lastname": "pablo",
+      "role": "user",
+      "id": 3
+    },
+    {
+      "email": "sandra@gmail.com",
+      "password": "$2a$10$4wYML8UpzwsFCryjTfKeQuzlrjygBFT4OabXxbH4KNJ0RWGMDF5x.",
+      "name": "sandra",
+      "lastname": "perez",
+      "role": "user",
+      "id": 4
+    }
+  ]
+}
