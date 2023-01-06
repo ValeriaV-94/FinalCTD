@@ -35,7 +35,7 @@ Me apasiona el mundo de la tecnología y el emprendimiento, al iniciar la carrer
 actualizarme con las últimas tecnologías con el fin de aplicarlas en el producto software que
 tengo en mente. Durante el desarrollo del proyecto, efectué las actividades de FrontEnd y
 facilité apoyo en las otras áreas.
-{| class="wikitable"
+
 |+ Caption text
 |-
 ! Tecnología !! Fortaleza
@@ -49,7 +49,7 @@ facilité apoyo en las otras áreas.
 | Testing / QA || 🔵 🔵 ⚪
 |-
 | Bases de datos || 🔵 🔵 ⚪
-|}
+
 Viviana Restrepo
 Profesional en Marketing sin previos conocimientos en programación antes de iniciar la
 carrera Certified Tech Developer. Durante el trabajo integrador desempeñó el rol backend,
