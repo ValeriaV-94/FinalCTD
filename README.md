@@ -29,75 +29,7 @@ Equipo
 * Infraestructura: Alexander Morales
 * Testing: Julian Pettinari
 * Base de datos: Valeria Ventura
--------------------------------------------------------------------------------------------------------------
-Alexander Martinez
-Me apasiona el mundo de la tecnología y el emprendimiento, al iniciar la carrera quería
-actualizarme con las últimas tecnologías con el fin de aplicarlas en el producto software que
-tengo en mente. Durante el desarrollo del proyecto, efectué las actividades de FrontEnd y
-facilité apoyo en las otras áreas.
 
-! Tecnología !! Fortaleza
-|-
-| Front end || 🔵 🔵 ⚪
-|-
-| Back end || 🔵 🔵 ⚪
-|-
-| Infraestructura || 🔵 ⚪ ⚪
-|-
-| Testing / QA || 🔵 🔵 ⚪
-|-
-| Bases de datos || 🔵 🔵 ⚪
-
-Viviana Restrepo
-Profesional en Marketing sin previos conocimientos en programación antes de iniciar la
-carrera Certified Tech Developer. Durante el trabajo integrador desempeñó el rol backend,
-siendo está su principal fortaleza. Durante la ejecución de su rol, utilizó Spring Boot para el
-desarrollo de la aplicación e Hibernate para mapear las tablas de la base de datos con sus
-diferentes atributos y relaciones, la aplicación cuenta con los endpoints requeridos por
-frontend para consumir los servicios necesarios para su correcto funcionamiento.
-Adicional, se hizo uso de la biblioteca Lombok con el fin de minimizar el código repetitivo
-como constructores sin argumentos, getters, setters, entre otros. Apoyó a frontend con el
-desarrollo de la característica del rating de los vehículos.
-Actualmente también cuenta con conocimientos y experiencia en el desarrollo de
-aplicaciones mobile Android (frontend).
-
-
-! Tecnología !! Fortaleza
-|-
-| Front end || 🔵 ⚪ ⚪
-|-
-| Back end || 🔵 🔵 🔵
-|-
-| Infraestructura || 🔵 ⚪ ⚪
-|-
-| Testing / QA || 🔵 🔵 ⚪
-|-
-| Bases de datos || 🔵 🔵 🔵
- 
-Rafael Alexander Morales Sandoval
-Durante el transcurso del Proyecto Integrador, fuí el encargado del área de Infraestructura,
-realice el diseño e implementación de la infraestructura que soporta la operación de
-RentCars, acogiéndose a los patrones de diseño reutilizables, la infraestructura como
-código y las prácticas de Dev SecOps con la finalidad de llevar de manera mucho más ágil
-cada cambio a producción.
-El proceso requirió de mucha investigación, prueba, práctica, implementación y error, pues
-como es sabido durante el proceso académico no se contó con el contenido ni guía de dicha
-área, por tal motivo fué siempre un reto y aprendizaje constante lograr la implementación.
-Adicionalmente, colabore solucionando inconvenientes de implementación en BackEnd, en
-Testing, para el 4 sprint, me encargué de realizar pruebas al código de manera ordenada
-para lograr la integración entre FrontEnd y BackEnd
- 
-! Tecnología !! Fortaleza
-|-
-| Front end || 🔵 ⚪ ⚪
-|-
-| Back end || 🔵 🔵 🔵
-|-
-| Infraestructura || 🔵 🔵 🔵
-|-
-| Testing / QA || 🔵 🔵 ⚪
-|-
-| Bases de datos || 🔵 🔵 🔵
  
 Valeria Ventura
 Analista BI con experiencia en manejo de distintos motores de bases de datos relacionales
@@ -109,17 +41,18 @@ backend. También ayude con la conexión de la base a AWS, con el mapeo de atrib
 relaciones, con la creación del UML para coordinar los campos a utilizar desde todas las
 áreas. Contribuí al desarrollo de Registro, Login, Reserva y el responsive de la web.
  
-! Tecnología !! Fortaleza
-|-
-| Front end || 🔵 🔵 ⚪
-|-
-| Back end || 🔵 🔵 ⚪
-|-
-| Infraestructura || 🔵 ⚪ ⚪
-|-
-| Testing / QA || 🔵 ⚪ ⚪
-|-
-| Bases de datos || 🔵 🔵 🔵
+Tecnología !! Fortaleza
+
+Front end || 🔵 🔵 ⚪
+
+Back end || 🔵 🔵 ⚪
+
+Infraestructura || 🔵 ⚪ ⚪
+
+Testing / QA || 🔵 ⚪ ⚪
+
+Bases de datos || 🔵 🔵 🔵
+
 
 Metodología de trabajo
 Para llevar a cabo este proyecto tomamos las herramientas que nos brindan la metodología
