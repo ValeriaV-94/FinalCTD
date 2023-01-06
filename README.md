@@ -13,17 +13,12 @@ responsive y se tuvo en cuenta la UX/UI. Además, utilizamos algunos servicios d
 
 Trabajamos en un ambiente Agile bajo metodología Scrum y algunas de las tecnologías,
 lenguajes, librerías y frameworks con los que trabajamos fueron:
-
-Interfaz: HTML, CSS, JavaScript, React Library
-
-Back-end: Java, Spring Framework, Spring Boot, Spring Boot Security, Spring Boot Mail,
+-Interfaz: HTML, CSS, JavaScript, React Library
+-Back-end: Java, Spring Framework, Spring Boot, Spring Boot Security, Spring Boot Mail,
 Spring Boot JPA, Spring Doc, Hibernate ORM, jwt, log4j, maven
-
-Base de datos: mysql
-
-Pruebas: Jest, Postman, React Testing Library y pruebas manuales.
-
-Infraestructura: Terraform, Docker, AWS (proveedor de recursos: Ec2, RDS mysql, S3,
+-Base de datos: mysql
+-Pruebas: Jest, Postman, React Testing Library y pruebas manuales.
+-Infraestructura: Terraform, Docker, AWS (proveedor de recursos: Ec2, RDS mysql, S3,
 Route 53)
 
 
