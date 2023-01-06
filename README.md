@@ -32,6 +32,7 @@ Equipo
 
  
 Valeria Ventura
+
 Analista BI con experiencia en manejo de distintos motores de bases de datos relacionales
 sin conocimientos en programación antes de comenzar como estudiante de la carrera
 Certified Tech Developer. Durante el proyecto integrador me desempeñe como encargada
@@ -41,7 +42,7 @@ backend. También ayude con la conexión de la base a AWS, con el mapeo de atrib
 relaciones, con la creación del UML para coordinar los campos a utilizar desde todas las
 áreas. Contribuí al desarrollo de Registro, Login, Reserva y el responsive de la web.
  
-Tecnología !! Fortaleza
+Tecnología || Fortaleza
 
 Front end || 🔵 🔵 ⚪
 
@@ -55,6 +56,7 @@ Bases de datos || 🔵 🔵 🔵
 
 
 Metodología de trabajo
+
 Para llevar a cabo este proyecto tomamos las herramientas que nos brindan la metodología
 ágil de trabajo SCRUM. Se trabajó con la guía de un Scrum Master, un Product Owner, un
 cliente y Tech Leaders. Participamos de ceremonias diarias (Lecturas de Sprint,
@@ -70,9 +72,13 @@ las fortalezas y debilidades y trabajar en mejorar. Durante este proyecto nos or
 con la creación de varias ramas por tarea, persona o funcionalidad y dos ramas principales
 a las que solo se les mergeaba el trabajo terminado y desde donde se realizaron las
 pruebas de las tareas y funciones.
+
 Bitácora del proyecto
+
 El proyecto se desarrolló en 4 sprints de 2 semanas cada uno.
+
 Sprint 1
+
 Lo más difícil del primer sprint fue resolver la estrategia de merging que íbamos a usar. No
 habíamos trabajado nunca en un proyecto colaborativo en la nube por lo que tuvimos que
 organizar cómo ibamos a continuar luego de dividir los roles y esperar a los accesos que
@@ -80,21 +86,28 @@ demoraron en llegar. También tratamos de dar una estética integral al figma el
 tipo de tipografía y paleta de colores para definir el diseño y comenzar a construir los
 templates del inicio, los formularios y el comienzo de la creación del Backend y la base de
 datos para manejar los datos obtenidos desde el Front.
+
 Sprint 2
+
 Durante este sprint ya habíamos logrado una buena organización y flujo de trabajo.
 Decidimos tomar las tareas por funciones generales más que por tareas particulares.
 Seguimos trabajando con el desarrollo de la API, agregando nuevos métodos,
 funcionamientos, validaciones y templates desde frontend.
+
 Sprint 3
+
 En estas 2 semanas nos enfocamos en terminar la base de datos, el back y la
 infraestructura. Por parte de front nos atrasamos un poco por lo que comenzamos a
 dividirnos dichas tareas.
 Sprint 4
+
 En este último sprint hicimos foco en corregir todos los defectos y el feedback que
 habíamos recibido en la última retro. Hicimos varios cambios de diseño para mejorar la
 experiencia de usuario y se priorizaron las tareas obligatorias con funciones primordiales
 para que la página funcione.
+
 Puntos Positivos:
+
 - Nos permitió dimensionar mejor el proyecto
 - Fijamos Fecha de entrega del proyecto realista
 - Rápido aprendizaje del equipo
@@ -102,9 +115,11 @@ Puntos Positivos:
 - Autonomía y responsabilidad
 - Pudimos contribuir en varias áreas ayudándonos
 Puntos Negativos:
+
 - Falta de tiempo, llegábamos siempre un poco ajustados al plazo de 2 semanas.
 - En algunos momentos hubo algunas faltas de comunicación.
 - No todos los integrantes del grupo participaron.
+
 En cuanto a la asignación de roles fueron bastante naturales, la persona que se sentia mas
 capacitada para hacer las tareas las tomaba, no exploramos el multitasking, sino que nos
 centraremos en terminar las tareas simples en un lapso de tiempo acorde teniendo en
@@ -113,14 +128,19 @@ Llegamos a acuerdos en cómo manejar GitLab, en el manejo de las ramas para no t
 inconvenientes de versiones con los colegas, como también tuvimos en cuenta la
 comunicación fluida 24/7 tanto para la resolución de problemas como también para avisar
 de los merge o push.
+
 Tecnologías Utilizadas
+
 Los servicios / herramientas que hemos empleado para realizar este proyecto son:
+
 ● Gestión del proyecto: GitLab, Discord
 ● Desarrollo del proyecto:
 ○ IDEs: Visual Studio Code, Intellij IDEA
 ○ Sistema de control de versiones: Git / Gitlab
 ○ Simulación / Virtualización: AWS
+
 Las Tecnologías utilizadas para el desarrollo del sitio fueron:
+
 ● Front-End: JavaScript, HTML, CSS, ReactJS, Axios, React Router V6, jwt-decode,
 react-calendar, react-s3, react-share, react-validation, validator, sweetalert2,
 react-image-gallery.
@@ -128,8 +148,11 @@ react-image-gallery.
 ● Base de datos: MySQL.
 ● Infraestructura: EC2, S3, RDS, Elastic Beanstalk.
 ● Testing: Postman, Jest, Selenium.
+
 Documentación técnica del proyecto
+
 Ambiente de desarrollo
+
 ● Instrucciones de cómo un nuevo integrante debería armarse su ambiente de
 desarrollo:
 ● Front-End
@@ -161,7 +184,9 @@ requerimientos: MySQL / IDEs:Workbench
 para mejor entendimiento de tablas.
 Querys para insertar datos a la base
 ● Infraestructura
+
 Diagrama de la infraestructura
+
 Instancia EC2
 S3 Estatico
 S3 Storage
