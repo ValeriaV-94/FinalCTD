@@ -1,4 +1,5 @@
 Página principal
+
 Resumen
 Digital Booking es una web de reservas de vehículos, donde puedes encontrar autos
 económicos, de lujo, vans y camionetas. El sitio permite tres flujos de navegación: usuario
