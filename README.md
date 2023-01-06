@@ -36,8 +36,6 @@ actualizarme con las últimas tecnologías con el fin de aplicarlas en el produc
 tengo en mente. Durante el desarrollo del proyecto, efectué las actividades de FrontEnd y
 facilité apoyo en las otras áreas.
 
-|+ Caption text
-|-
 ! Tecnología !! Fortaleza
 |-
 | Front end || 🔵 🔵 ⚪
@@ -62,9 +60,8 @@ como constructores sin argumentos, getters, setters, entre otros. Apoyó a front
 desarrollo de la característica del rating de los vehículos.
 Actualmente también cuenta con conocimientos y experiencia en el desarrollo de
 aplicaciones mobile Android (frontend).
-{| class="wikitable"
-|+ Caption text
-|-
+
+
 ! Tecnología !! Fortaleza
 |-
 | Front end || 🔵 ⚪ ⚪
@@ -76,7 +73,7 @@ aplicaciones mobile Android (frontend).
 | Testing / QA || 🔵 🔵 ⚪
 |-
 | Bases de datos || 🔵 🔵 🔵
-|}
+ 
 Rafael Alexander Morales Sandoval
 Durante el transcurso del Proyecto Integrador, fuí el encargado del área de Infraestructura,
 realice el diseño e implementación de la infraestructura que soporta la operación de
@@ -89,9 +86,7 @@ como es sabido durante el proceso académico no se contó con el contenido ni gu
 Adicionalmente, colabore solucionando inconvenientes de implementación en BackEnd, en
 Testing, para el 4 sprint, me encargué de realizar pruebas al código de manera ordenada
 para lograr la integración entre FrontEnd y BackEnd
-{| class="wikitable"
-|+ Caption text
-|-
+ 
 ! Tecnología !! Fortaleza
 |-
 | Front end || 🔵 ⚪ ⚪
@@ -103,28 +98,7 @@ para lograr la integración entre FrontEnd y BackEnd
 | Testing / QA || 🔵 🔵 ⚪
 |-
 | Bases de datos || 🔵 🔵 🔵
-|}
-Julian Pettinari
-Project Manager con experiencia en liderazgo de equipos y gestión de proyectos
-simultáneos. Antes de comenzar la carrera contaba con conocimientos básicos de Html y
-css. En el proyecto integrador acompañe con el desarrollo de tareas de testing,
-infraestructura, validación de funcionamiento de apis, Swagger, test manuales y research en
-los desafíos generales del equipo.
-{| class="wikitable"
-|+ Caption text
-|-
-! Tecnología !! Fortaleza
-|-
-| Front end || 🔵 🔵 ⚪
-|-
-| Back end || 🔵 🔵 ⚪
-|-
-| Infraestructura || 🔵 🔵 ⚪
-|-
-| Testing / QA || 🔵 ⚪ ⚪
-|-
-| Bases de datos || 🔵 🔵 ⚪
-|}
+ 
 Valeria Ventura
 Analista BI con experiencia en manejo de distintos motores de bases de datos relacionales
 sin conocimientos en programación antes de comenzar como estudiante de la carrera
@@ -134,9 +108,7 @@ colaboré en el transcurso de los distintos sprints con tareas tanto de frontend
 backend. También ayude con la conexión de la base a AWS, con el mapeo de atributos y
 relaciones, con la creación del UML para coordinar los campos a utilizar desde todas las
 áreas. Contribuí al desarrollo de Registro, Login, Reserva y el responsive de la web.
-{| class="wikitable"
-|+ Caption text
-|-
+ 
 ! Tecnología !! Fortaleza
 |-
 | Front end || 🔵 🔵 ⚪
@@ -148,7 +120,7 @@ relaciones, con la creación del UML para coordinar los campos a utilizar desde 
 | Testing / QA || 🔵 ⚪ ⚪
 |-
 | Bases de datos || 🔵 🔵 🔵
-|}
+
 Metodología de trabajo
 Para llevar a cabo este proyecto tomamos las herramientas que nos brindan la metodología
 ágil de trabajo SCRUM. Se trabajó con la guía de un Scrum Master, un Product Owner, un
